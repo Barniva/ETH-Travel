@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="../static/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <!-- <link rel="stylesheet" href="../static/css/swiper-bundle.min.css"> -->
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../static/css/styles.css">
+
+        <title>About Travel</title>
+    </head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="/" class="nav__logo">Travel</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/about" class="nav__link active-link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/discover" class="nav__link">Discover</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/places" class="nav__link">Places</a>
+                    </li>
+                </ul>
+
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+<main class="main">
+    <section class="about section" id="home">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="section__title about__title">More Information <br> About The Best Beaches</h2>
+                <p class="about__description">You can find the most beautiful and pleasant places at the best 
+                    prices with special discounts, you choose the place we will guide you all the way to wait, get your 
+                    place now.
+                </p>
+                <a href="/places" class="button">Reserve a place</a>
+            </div>
+
+            <div class="about__img">
+                <div class="about__img-overlay">
+                    <img src="../static/img/about1.jpg" alt="" class="about__img-one">
+                </div>
+
+                <div class="about__img-overlay">
+                    <img src="../static/img/about2.jpg" alt="" class="about__img-two">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--==================== SUBSCRIBE ====================-->
+    <section class="subscribe section">
+        <div class="subscribe__bg">
+            <div class="subscribe__container container">
+                <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
+                <p class="subscribe__description">Subscribe to our newsletter and get a 
+                    special 30% discount.
+                </p>
+
+                <form action="" class="subscribe__form">
+                    <input type="text" placeholder="Enter email" class="subscribe__input">
+
+                    <button class="button">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!--==================== SPONSORS ====================-->
+    <section class="sponsor section">
+        <div class="sponsor__container container grid">
+            <div class="sponsor__content">
+                <img src="../static/img/sponsors1.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="../static/img/sponsors2.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="../static/img/sponsors3.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="../static/img/sponsors4.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="../static/img/sponsors5.png" alt="" class="sponsor__img">
+            </div>
+        </div>
+    </section>
+</main>
+    
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="../static/js/scrollreveal.min.js"></script>
+    
+    <!--=============== SWIPER JS ===============-->
+    <script src="../static/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="../static/js/main.js"></script>
+
+</body>
+
+</html>

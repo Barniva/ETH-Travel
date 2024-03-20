@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="../static/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="../static/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../static/css/styles.css">
+
+        <title>Travel Places</title>
+    </head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="/" class="nav__logo">Travel</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/discover" class="nav__link">Discover</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/places" class="nav__link active-link">Places</a>
+                    </li>
+                </ul>
+
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+<main class="main">
+    <!--==================== PLACES ====================-->
+    <section class="place section" id="home">
+        <h2 class="section__title">Choose Your Place</h2>
+
+        <div class="place__container container grid">
+            <!--==================== PLACES CARD 1 ====================-->
+            <div class="place__card">
+                <img src="../static/img/place1.jpg" alt="" class="place__img">
+                
+                <div class="place__content">
+                    <span class="place__rating">
+                        <i class="ri-star-line place__rating-icon"></i>
+                        <span class="place__rating-number">4,8</span>
+                    </span>
+
+                    <div class="place__data">
+                        <h3 class="place__title">Bali</h3>
+                        <span class="place__subtitle">Indonesia</span>
+                        <span class="place__price">2499Br</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex place__button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+            <!--==================== PLACES CARD 2 ====================-->
+            <div class="place__card">
+                <img src="../static/img/place2.jpg" alt="" class="place__img">
+                
+                <div class="place__content">
+                    <span class="place__rating">
+                        <i class="ri-star-line place__rating-icon"></i>
+                        <span class="place__rating-number">5,0</span>
+                    </span>
+
+                    <div class="place__data">
+                        <h3 class="place__title">Bora Bora</h3>
+                        <span class="place__subtitle">Polinesia</span>
+                        <span class="place__price">1599Br</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex place__button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+            <!--==================== PLACES CARD 3 ====================-->
+            <div class="place__card">
+                <img src="../static/img/place3.jpg" alt="" class="place__img">
+                
+                <div class="place__content">
+                    <span class="place__rating">
+                        <i class="ri-star-line place__rating-icon"></i>
+                        <span class="place__rating-number">4,9</span>
+                    </span>
+
+                    <div class="place__data">
+                        <h3 class="place__title">Hawaii</h3>
+                        <span class="place__subtitle">EE.UU</span>
+                        <span class="place__price">3499Br</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex place__button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+            <!--==================== PLACES CARD 4 ====================-->
+            <div class="place__card">
+                <img src="../static/img/place4.jpg" alt="" class="place__img">
+                
+                <div class="place__content">
+                    <span class="place__rating">
+                        <i class="ri-star-line place__rating-icon"></i>
+                        <span class="place__rating-number">4,8</span>
+                    </span>
+
+                    <div class="place__data">
+                        <h3 class="place__title">Whitehaven</h3>
+                        <span class="place__subtitle">Australia</span>
+                        <span class="place__price">2499Br</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex place__button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+            <!--==================== PLACES CARD 5 ====================-->
+            <div class="place__card">
+                <img src="../static/img/place5.jpg" alt="" class="place__img">
+                
+                <div class="place__content">
+                    <span class="place__rating">
+                        <i class="ri-star-line place__rating-icon"></i>
+                        <span class="place__rating-number">4,8</span>
+                    </span>
+
+                    <div class="place__data">
+                        <h3 class="place__title">Hvar</h3>
+                        <span class="place__subtitle">Croacia</span>
+                        <span class="place__price">1999Br</span>
+                    </div>
+                </div>
+
+                <button class="button button--flex place__button">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="../static/js/scrollreveal.min.js"></script>
+    
+    <!--=============== SWIPER JS ===============-->
+    <script src="../static/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="../static/js/main.js"></script>
+
+</body>
+
+    </html>
