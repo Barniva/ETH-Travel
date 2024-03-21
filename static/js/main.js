@@ -173,3 +173,10 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*=====================Places link========================*/
+let place1 = document.getElementById('fasilbtn');
+let place2 = document.getElementById('lalibtn');
+var place3 = document.getElementById('danalbtn');
+var place4 = document.getElementById('nilebtn');
+var place5 = document.getElementById('omobtn');

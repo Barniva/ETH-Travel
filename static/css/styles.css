@@ -193,7 +193,7 @@ input {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: transparent;
+  background-color: darkslategray;
 }
 
 /*=============== NAV ===============*/
@@ -224,7 +224,7 @@ input {
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
-    background-color: var(--body-color);
+    background-color: darkslategray;
     top: 0;
     right: -100%;
     width: 70%;
@@ -242,13 +242,13 @@ input {
 }
 
 .nav__link {
-  color: var(--text-color-light);
+  color: lightskyblue;
   font-weight: var(--font-semi-bold);
   text-transform: uppercase;
 }
 
 .nav__link:hover {
-  color: var(--text-color);
+  color: black;
 }
 
 .nav__close {
@@ -279,7 +279,7 @@ input {
 /* Active link */
 .active-link {
   position: relative;
-  color: var(--title-color);
+  color: wheat;
 }
 
 .active-link::before {
@@ -430,7 +430,8 @@ input {
 }
 
 .about__img-one {
-  width: 130px;
+  width: 180px;
+  height: 250px;
 }
 
 .about__img-two {
@@ -450,13 +451,14 @@ input {
 /*=============== DISCOVER ===============*/
 .discover__card {
   position: relative;
-  width: 200px;
+  width: 250px;
+  height: 350px;
   overflow: var(--img-hidden);
 }
 
 .discover__data {
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 0.5rem;
   left: 1rem;
 }
 
@@ -466,7 +468,7 @@ input {
 }
 
 .discover__title {
-  font-size: var(--h3-font-size);
+  font-size: large;
   margin-bottom: var(--mb-0-25);
 }
 
@@ -570,14 +572,25 @@ input {
 
 /*=============== PLACES ===============*/
 .place__card, .place__img {
-  height: 230px;
+  height: 300px;
+  width: 350px;
 }
+.place_text {
+  color: black;
+}
+@media(max-width)
 
 .place__container {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
 }
 
+@media(min-width)
+
+.place__container {
+  grid-template-columns: repeat(1, max-content);
+  justify-content: center;
+}
 .place__card {
   position: relative;
   overflow: var(--img-hidden);
@@ -1021,6 +1034,7 @@ input {
   }
   .place__card, .place__img {
     height: 263px;
+    width: 350px;
   }
   .footer__content {
     justify-items: center;
