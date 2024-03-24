@@ -4,7 +4,7 @@ from flask import Flask, render_template, jsonify
 app = Flask(__name__)
 app.url_map.strict_slashes = False
 @app.errorhandler(404)
-def errorhj(error):
+def not_found(error):
     return render_template('404.html')
 
 
