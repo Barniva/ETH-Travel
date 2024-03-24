@@ -14,12 +14,9 @@ TravelApp is a comprehensive travel planning application that leverages the powe
 - JavaScript: For dynamic content and interactions
 - Google Maps API: For route planning and location information.
 
-# How to Use
-- Clone the Repository: Use git clone ```https://github.com/Barniva/Ethio-Travel``` to clone the project to your local machine.
-- Install Dependencies: Navigate to the project directory and install the required dependencies using ```pip install -r requirements.txt```.
-- Run the Application: Execute ```flask run``` to start the Flask server.
-- Access the Application: Open a web browser and navigate to http://localhost:5000 to use the application.
-Credits
+# Access the Application
+## https://ethiotravel.vercel.app
+
 # Challenges and Future Improvements
 - Performance Optimization: Improve the application's load time and responsiveness.
 - User Interface Enhancements: Enhance the user interface with more interactive elements.
