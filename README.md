@@ -20,8 +20,7 @@ TravelApp is a comprehensive travel planning application that leverages the powe
 - Run the Application: Execute ```flask run``` to start the Flask server.
 - Access the Application: Open a web browser and navigate to http://localhost:5000 to use the application.
 Credits
-- Developers: * Andamlak Abza, * Barnabas Amede
-Challenges and Future Improvements
+# Challenges and Future Improvements
 - Performance Optimization: Improve the application's load time and responsiveness.
 - User Interface Enhancements: Enhance the user interface with more interactive elements.
 Additional Features: Implement features like travel tips, user reviews, and social sharing.
@@ -29,4 +28,8 @@ Proud Moments
 Successfully integrating Google Maps API for route planning.
 Achieving a responsive and user-friendly design.
 License
+# Developers 
+ ## Andamlak Abza
+ ## Barnabas Amede
+
 `This project is licensed under the MIT License. See the LICENSE file for details.`
