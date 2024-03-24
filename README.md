@@ -26,7 +26,7 @@ Successfully integrating Google Maps for route and location.
 Achieving a responsive and user-friendly design.
 License
 # Developers 
- ##  <a href="https://ethiotravel.vercel.app">Andamlak Abza</a>
- ##  Barnabas Amede
+ ##  <a href="https://andoabza.vercel.app">Andamlak Abza</a>
+ ##  <a href="https://github.com/Barniva">Barnabas Amede</a>
 
 `This project is licensed under the MIT License. See the LICENSE file for details.`
