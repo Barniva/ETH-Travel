@@ -28,7 +28,7 @@ Achieving a responsive and user-friendly design.
 License
 # Developers 
  ##  <a href="https://andoabza.vercel.app">Andamlak Abza</a>
- ![Andamlak](./static/img/andamlak.jpg)
+ <img src="./static/img/andamlak.jpg" width='50%' height="50%">
  ##  <a href="https://github.com/Barniva">Barnabas Amede</a>
  ![Barnabas](./static/img/barnabas.png)
 
