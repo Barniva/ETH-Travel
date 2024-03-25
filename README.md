@@ -28,8 +28,8 @@ Achieving a responsive and user-friendly design.
 License
 # Developers 
  ##  <a href="https://andoabza.vercel.app">Andamlak Abza</a>
- <img src="./static/img/andamlak.jpg" style='display: flex; justify-content: center;' width='50%' height="50%">
+ <img src="./static/img/andamlak.jpg" style='display: flex; justify-content: center;' width='50%' height="50%">;
  ##  <a href="https://github.com/Barniva">Barnabas Amede</a>
- <img src="./static/img/barnabas.png" style='display: flex; justify-content: center;' width='50%' height="50%">
+ <img src="./static/img/barnabas.png" style='display: flex; justify-content: center;' width='50%' height="50%">;
  
 `This project is licensed under the MIT License. See the LICENSE file for details.`
