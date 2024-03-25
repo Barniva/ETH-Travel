@@ -28,8 +28,8 @@ Achieving a responsive and user-friendly design.
 License
 # Developers 
  ##  <a href="https://andoabza.vercel.app">Andamlak Abza</a>
- ![Andamlak](./profile1)
+ ![Andamlak](./static/img/andamlak.jpg)
  ##  <a href="https://github.com/Barniva">Barnabas Amede</a>
- ![Barnabas](./profile2)
+ ![Barnabas](./static/img/barnabas.png)
 
 `This project is licensed under the MIT License. See the LICENSE file for details.`
