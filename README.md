@@ -1,6 +1,6 @@
 # <a href="https://ethiotravel.vercel.app">Ethio-Travel</a>
 
-![image]('./preview.jpg')
+![image](./preview.jpg)
 # Description
 Ethio-Travel is a simple travel application use Maps to provide users with detailed travel information about the place. The application is built using HTML, CSS, SCSS for styling, Flask for the backend, and JavaScript for dynamic content and interactions.
 
